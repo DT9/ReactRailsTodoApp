@@ -1,0 +1,21 @@
+We'd like you to build a simple to-do app in Ruby on Rails. We expect to be able to add, edit, and remove to-dos, but you're encouraged to be creative and add your own flair. For the purposes of this assignment, we're much more concerned with code quality and usability than design.
+
+Please demonstrate some basic enhancements to the page using JavaScript. For bonus points, consider using a front-end JavaScript framework.
+
+Some specific things we'll be looking for:
+
+- Readable, clean code. For example:
+	- Sensible names for classes, methods, variables, and parameters
+	- Class and public method documentation
+- Good architecture, eg:
+	- Adheres to the single responsibility principal
+	- DRY code
+	- Use of appropriate design patterns
+- Conforms to web development best practices:
+	- Produces valid HTML & CSS
+	- JavaScript runs, and does not product errors
+	- Responsive design
+	- Basic accessibility
+- A fast and functional test suite
+- Build, test, and run instructions
+- Submitted via a source code repository
