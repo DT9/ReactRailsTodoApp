@@ -1,24 +1,15 @@
-# README
+# Rails TODO Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - 2.5
 
-Things you may want to cover:
+* System dependencies - Ruby
 
-* Ruby version
+* Configuration - None
 
-* System dependencies
+* Database creation - SQLite
 
-* Configuration
+* Database initialization - rails db:seed
 
-* Database creation
+* How to run the test suite - rails test
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Services (job queues, cache servers, search engines, etc.) - None

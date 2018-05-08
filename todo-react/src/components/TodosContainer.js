@@ -23,6 +23,13 @@ class TodosContainer extends Component {
       notification: ''
     }
   }
+  resetNotification = () => {
+    this.setState({ notification: '' })
+  }
+  enableEditing = (id) => {
+    this.setState({ editingId: id },
+      () => { this.title.focus() })
+  }
   addNewTodo = () => {
     axios.post(
       'http://localhost:3001/api/v1/todos',
@@ -49,13 +56,6 @@ class TodosContainer extends Component {
       [todoIndex]: { $set: todo }
     })
     this.setState({ todos: todos, notification: 'All Changes Saved.' })
-  }
-  resetNotification = () => {
-    this.setState({ notification: '' })
-  }
-  enableEditing = (id) => {
-    this.setState({ editingId: id },
-      () => { this.title.focus() })
   }
   deleteTodo = (id) => {
     axios.delete(`http://localhost:3001/api/v1/todos/${id}`)
