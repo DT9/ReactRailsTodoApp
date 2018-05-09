@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TodosContainer from './TodosContainer';
 
-it('renders App without crashing', () => {
+it('renders TodosContainer without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div); 
+  ReactDOM.render(<TodosContainer />, div); 
   ReactDOM.unmountComponentAtNode(div);
 });

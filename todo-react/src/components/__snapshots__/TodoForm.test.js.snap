@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoForm Todo changes when edited 1`] = `
+<div
+  className="tile"
+>
+  <form
+    onBlur={[Function]}
+  >
+    <input
+      className="input"
+      name="title"
+      onChange={[Function]}
+      placeholder="Enter a Title"
+      type="text"
+      value="title"
+    />
+    <textarea
+      className="input"
+      name="body"
+      onChange={[Function]}
+      placeholder="Describe your todo"
+      value="body"
+    />
+  </form>
+</div>
+`;
+
+exports[`TodoForm Todo changes when edited 2`] = `
+<div
+  className="tile"
+>
+  <form
+    onBlur={[Function]}
+  >
+    <input
+      className="input"
+      name="title"
+      onChange={[Function]}
+      placeholder="Enter a Title"
+      type="text"
+      value="title"
+    />
+    <textarea
+      className="input"
+      name="body"
+      onChange={[Function]}
+      placeholder="Describe your todo"
+      value="body"
+    />
+  </form>
+</div>
+`;

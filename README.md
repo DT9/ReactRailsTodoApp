@@ -33,10 +33,10 @@ yarn start
 ## Running the tests
 
 ```
-# rails todo-api
+# rails in todo-api
 rails test
-# react todo-react
-
+# react in todo-react
+yarn test
 ```
 
 
